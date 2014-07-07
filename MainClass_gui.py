@@ -50,16 +50,12 @@ class Ui_MainWindow(object):
         self.actionOpen_Layer.setObjectName(_fromUtf8("actionOpen_Layer"))
         self.actionShow = QtGui.QAction(MainWindow)
         self.actionShow.setObjectName(_fromUtf8("actionShow"))
-        self.menuFile.addAction(self.actionOpen_Layer)
-        self.menuFile.addAction(self.actionShow)
-        self.menubar.addAction(self.menuFile.menuAction())
+ 
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
-        self.menuFile.setTitle(_translate("MainWindow", "File", None))
-        self.actionOpen_Layer.setText(_translate("MainWindow", "Open Layer", None))
-        self.actionShow.setText(_translate("MainWindow", "Show", None))
+ 
 
